@@ -1,0 +1,72 @@
+:root {
+    --color-crema: #BDC2D9;
+    --color-crema-apagado: #C5D8F0;
+}
+
+#main {
+    width: 80%; /* Ancho del #main */
+    margin: 0 auto; /* Centra el #main en la página */
+    background-color: var(--color-crema);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 50px;
+}
+
+#img-div {
+    background-color: var(--color-crema-apagado);
+    padding: 15px;
+    max-width: 90%; /* Ajusta el ancho de #img-div */
+    margin: auto;
+    text-align: center; /* Alinea el contenido al centro horizontalmente */
+}
+/*margin y display, para aliniar una imagen al centro*/
+img {
+    max-width: 100%; /* Limita el ancho máximo de la imagen */
+    height: auto; /* La altura se ajustará proporcionalmente al ancho */
+    display: block;
+    margin: 0 auto; /* Centra la imagen en #img-div */
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
+div > ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    text-align: center; /* Alinea el contenido de la lista al centro */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+div > ul > li {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    max-width: 750px;
+    margin: 20px auto; /* Establece un margen superior e inferior y centrará horizontalmente */
+}
+
+span {
+    font-weight: 800;
+}
+
+.pie-pagina {
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+#pie {
+    font-weight: 600;
+}
